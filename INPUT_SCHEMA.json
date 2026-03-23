@@ -8,28 +8,28 @@
       "type": "string",
       "description": "Enter the first name of the person to enrich",
       "editor": "textfield",
-      "example": "John"
+      "prefill": "John"
     },
     "lastName": {
       "title": "Last Name",
       "type": "string",
       "description": "Enter the last name of the person to enrich",
       "editor": "textfield",
-      "example": "Doe"
+      "prefill": "Doe"
     },
     "domain": {
       "title": "Domain",
       "type": "string",
-      "description": "Enter the company domain without https:// e.g. google.com",
+      "description": "Company domain without https:// e.g. google.com",
       "editor": "textfield",
-      "example": "google.com"
+      "prefill": "google.com"
     },
     "fileUrl": {
       "title": "CSV or Excel File URL",
       "type": "string",
       "description": "Paste a public URL to your .csv or .xlsx file containing leads",
       "editor": "textfield",
-      "example": "https://docs.google.com/spreadsheets/d/your-file-id"
+      "prefill": "https://docs.google.com/spreadsheets/d/your-file-id"
     }
   },
   "required": ["firstName", "lastName", "domain"]
