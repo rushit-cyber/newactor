@@ -24,18 +24,12 @@
       "editor": "textfield",
       "prefill": "google.com"
     },
-    "uploadedFile": {
-      "title": "Upload CSV or Excel File",
+    "fileUrl": {
+      "title": "CSV or Excel File URL",
       "type": "string",
-      "description": "Upload your .csv or .xlsx file containing leads",
+      "description": "Paste a public URL to your .csv or .xlsx file containing leads",
       "editor": "textfield",
       "prefill": "https://docs.google.com/spreadsheets/d/your-file-id"
-    },
-    "dataset": {
-      "title": "Or Select Existing Dataset",
-      "type": "string",
-      "description": "Optional: Enter an existing Apify Dataset ID to use instead of uploading a file",
-      "editor": "textfield"
     }
   },
   "required": ["firstName", "lastName", "domain"]
